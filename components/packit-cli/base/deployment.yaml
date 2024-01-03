@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: packit-cli
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/ttomecek-tenant/packit-fork/packit-cli@sha256:d70fc6599497a3d6fc14e486bc914562ed9f196a92209f6d0414f737f9e93e76
         imagePullPolicy: Always
         name: container-image
         ports:
