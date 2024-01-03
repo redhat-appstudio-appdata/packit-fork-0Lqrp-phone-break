@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: packit-cli
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/ttomecek-tenant/packit-fork/packit-cli@sha256:d70fc6599497a3d6fc14e486bc914562ed9f196a92209f6d0414f737f9e93e76
+        name: container-image
+        resources: {}
+status: {}
