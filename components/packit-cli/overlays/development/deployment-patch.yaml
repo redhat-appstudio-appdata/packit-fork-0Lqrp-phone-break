@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: packit-cli
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
